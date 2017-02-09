@@ -1,0 +1,4 @@
+name,company,city,postcode,tel,email,website,notes
+"place all your data in the columns (replace everything here with your data, including columns)",,,,,,,,,
+keep the http://www. part of web addresses otherwise link won't work,,,,,,,,,
+save as a .csv file,,,,,,,,,
