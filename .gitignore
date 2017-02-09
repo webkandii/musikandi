@@ -25,7 +25,7 @@
 *.log
 *.sql
 *.sqlite
-config.php
+inc/config.php
 
 # OS generated files #
 ######################
