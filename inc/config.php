@@ -2,9 +2,9 @@
 	$website_path = 'http://musikandi.com/';
 	
 	$host = "localhost";
-	$database = "webkandi_music";
-	$username = "webkandi_mu";
-	$password = "4pqi1SBYRj";
+	$database = "";
+	$username = "";
+	$password = "";
 
 	try {
 	    $conn = new PDO('mysql:host=' . $host. ';dbname=' . $database, $username, $password);
