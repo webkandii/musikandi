@@ -11,7 +11,7 @@
 <!-- PIC -->
 
 	<div class="three-column-23">
-<div class="news-pic-wrap"><img src="img/news/casa.jpg" width="550" height="252" alt="Casa Da Musica" /></div>
+<div class="news-pic-wrap"><img src="images/casa.jpg" width="550" height="252" alt="Casa Da Musica" /></div>
 </div>
 
 	
