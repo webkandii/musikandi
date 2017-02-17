@@ -13,17 +13,12 @@
         <div class="container">
            <div class="news-content level">
 <div class="news-box">
-<div class="news-headline">Featured artist: DARKHER.</div>
-<div class="news-body"><p>Flame haired former front woman of North English band The Steals, Jayn Hanna (a.k.a. DARKHER) released the 'Darkher' EP ahead of a full album out at the end of 2014. As a solo performer, Jayn has recently supported Dead Meadow and Esben and the Witch. <br /><br />
+<div class="news-headline">Featured artist: some musician.</div>
+<div class="news-body"><p>Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna maecenas sed diam.<br />
 
-Anyone who's witnessed the esoteric splendour in Jayn's live work will know a deep spiritual confidence exists within the flame-haired performer, one feels a sense of transportation to a more ancient, and other worldly place.<br /><br />
+<div class="quote">"Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna maecenas sed diam. " <a href="http://www.manchestersfinest.com/music/darkher-the-soup-kitchen-161013-review/" target="_blank" class="publication">Manchester's Finest</a></div><br />
 
-The Steals' album 'Static Kingdom' (2009 Faun Records) gained high praise. The transformation into a solo project has been equally well received, following a number of solo shows supporting Robin Guthrie, Dead Meadow, Esben and the Witch, Chelsea Wolfe and Dylan Carlson.<br />
-
-<div class="quote">"creating dark fairy tales combining a feel of both chilling loneliness and the warmth
- of hope by an artist behind whose fragile elegance lies a creator of a powerfully emotive work" <a href="http://www.manchestersfinest.com/music/darkher-the-soup-kitchen-161013-review/" target="_blank" class="publication">Manchester's Finest</a></div><br />
-
-<div class="quote">"The effect, in both spirit and at times sound, is very similar to the more recent works of Mount Eerie – like Phil Elverum, Jayn is both singer-songwriter and conduit. With her endless waves of deep red hair and a shamanic presence that seems to come from a possibly mythical time long past. And that voice, of course: uniquely and spine-tinglingly evocative – but it's all done without any arrogance or pretension." <a href="http://louderthanwar.com/darkher-in-hebden-bridge-live-review/" target="_blank" class="publication">Louder Than War</a></div>
+<div class="quote">"Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna maecenas sed diam." <a href="http://louderthanwar.com/darkher-in-hebden-bridge-live-review/" target="_blank" class="publication">Louder Than War</a></div>
 <br />
 <br />
 
