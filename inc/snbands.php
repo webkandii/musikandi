@@ -5,7 +5,7 @@
 <!-- NEWS ITEM -->
 
 	<div class="three-column-1"><div class="news-column-1">
-<div class="news-pic-wrap"><img src="img/news/sensible.gif" width="200" height="148" alt="Sensible" /></div>
+<div class="news-pic-wrap"><img src="images/sensible.gif" width="200" height="148" alt="Sensible" /></div>
 	
 	</div></div>
 
