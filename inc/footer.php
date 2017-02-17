@@ -34,8 +34,7 @@
                <ul class="clearfix">
 
                     <li class="socialmedia">
-<a href="https://myspace.com/webkandi" target="_blank" class="myspace"><img src="<?php echo $website_path; ?>img/myspace.png" width="119" height="25" alt="Webkandi on Myspace"/></a> <br><br>
-                        <a href="http://www.twitter.com/mymusikandi" target="_blank"><img src="img/Twitter_logo_white_45.png" width="25" height="21" alt="Twitter"/></a>
+                        <a href="http://www.twitter.com/mymusikandi" target="_blank"><img src="img/twitter-logo.png" width="25" height="21" alt="Twitter"/></a>
                         <br><br>
                         <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
                         <g:plusone></g:plusone>
