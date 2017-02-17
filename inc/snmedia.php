@@ -11,7 +11,7 @@
 <!-- PIC -->
 
 	<div class="three-column-23">
-<div class="news-pic-wrap"><img src="img/news/Will_Oldham.jpg" width="550" height="252" alt="Will Oldham" /></div>
+<div class="news-pic-wrap"><img src="images/Will_Oldham.jpg" width="550" height="252" alt="Will Oldham" /></div>
 </div>
 
 	
@@ -28,7 +28,7 @@
 <!-- 1ST NEWS ITEM -->
 
 	<div class="three-column-1"><div class="news-column-1">
-<div class="news-pic-wrap"><div class="news-pic"><img src="img/news/Fucked_Up_Old-Blue-Last.jpg" width="310" height="207" alt="Fucked Up at the Old Blue Last" /></div></div>
+<div class="news-pic-wrap"><div class="news-pic"><img src="images/Fucked_Up_Old-Blue-Last.jpg" width="310" height="207" alt="Fucked Up at the Old Blue Last" /></div></div>
 
 <!-- 1ST NEWS ITEM: HEADLINE -->
 
@@ -41,7 +41,7 @@ I'll never understand how live music photographers can take such high quality sh
 <!-- 2ND NEWS ITEM -->
 
 	<div class="three-column-2"><div class="news-column-2">
-<div class="news-pic-wrap"><div class="news-pic"><img src="img/news/woven_hand.jpg" width="310" height="207" alt="Woven Hand" /></div></div>
+<div class="news-pic-wrap"><div class="news-pic"><img src="images/woven_hand.jpg" width="310" height="207" alt="Woven Hand" /></div></div>
 
 <!-- 2ND NEWS ITEM: HEADLINE -->
 
@@ -53,7 +53,7 @@ I don't know too much about Carlo other than he also works for culture and media
 
 <!-- 3RD NEWS ITEM -->
 	<div class="three-column-3"><div class="news-column-3">
-<div class="news-pic-wrap"><div class="news-pic"><img src="img/news/be.jpg" width="310" height="207" alt="Bryan Edwards by Chris Mills" /></div></div>
+<div class="news-pic-wrap"><div class="news-pic"><img src="images/be.jpg" width="310" height="207" alt="Bryan Edwards by Chris Mills" /></div></div>
 
 <!-- 3RD NEWS ITEM: HEADLINE -->
 <div class="news-column-headline">Photographer: Chris Mills</div>
