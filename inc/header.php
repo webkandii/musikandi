@@ -37,8 +37,8 @@
 
                 if($count >= 1) { // Check email address is valid
                     $hash = hash('sha256', $db_salt . hash('sha256', $password));
-                
-                    if($hash != $db_password) { // Check password 
+
+                    if($hash != $db_password) { // Check password
                         $login_err = 'Please enter a valid email address and password.';
                     } else {
                         validate_user($db_id, $db_first_name, $db_last_name, $email, $db_permissions, $db_ab_count, $db_ab_agents, $db_ab_worldwide, $db_ab_promoters, $db_ab_digital, $db_ab_print, $db_ab_broadcast, $db_ab_venues, $db_ab_london, $db_ab_festivals, $db_ab_nonukfests, $db_ab_tech, $db_ab_bline, $db_ab_staff, $db_ab_classical);
@@ -110,17 +110,44 @@
                     <nav>
                         <ul>
                             <li><a href="<?php echo $website_path; ?>" <?php if(isset($page) && $page == 'home') { echo 'class="active"'; } ?>>Home</a></li>
-                            <li><a href="<?php echo $website_path; ?>bands.php" <?php if(isset($page) && $page == 'bands') { echo 'class="active"'; } ?>>Bands</a></li>
-                            <li><a href="<?php echo $website_path; ?>industry.php" <?php if(isset($page) && $page == 'industry') { echo 'class="active"'; } ?>>Industry</a></li>
-                            <li><a href="<?php echo $website_path; ?>media.php" <?php if(isset($page) && $page == 'media') { echo 'class="active"'; } ?>>Media</a></li>
-                            <li><a href="<?php echo $website_path; ?>venues.php" <?php if(isset($page) && $page == 'venues') { echo 'class="active"'; } ?>>Venues</a></li>
+                            <li class="dropdown"><a href="<?php echo $website_path; ?>bands.php" <?php if(isset($page) && $page == 'bands') { echo 'class="active"'; } ?>>Bands</a>
+                              <div>
+                                    <a href="<?php echo $website_path; ?>bands.php#tech">PA/Backline</a>
+                                    <a href="<?php echo $website_path; ?>bands.php#bline">Instruments</a>
+                                    <a href="<?php echo $website_path; ?>bands.php#staff">Sound Engineers</a>
+                                </div>
+                            </li>
+                            <li class="dropdown"><a href="<?php echo $website_path; ?>industry.php" <?php if(isset($page) && $page == 'industry') { echo 'class="active"'; } ?>>Industry</a>
+                              <div>
+                                    <a href="<?php echo $website_path; ?>industry.php#booking-agents">Booking Agents</a>
+                                    <a href="<?php echo $website_path; ?>industry.php#worldwide">Worldwide</a>
+                                    <a href="<?php echo $website_path; ?>industry.php#promoters">Promoters</a>
+                                    <a href="<?php echo $website_path; ?>industry.php#classical">Classical / Jazz</a>
+                                </div>
+                              </li>
+                            <li class="dropdown"><a href="<?php echo $website_path; ?>media.php" <?php if(isset($page) && $page == 'media') { echo 'class="active"'; } ?>>Media</a>
+                              <div>
+                                    <a href="<?php echo $website_path; ?>media.php#digital">Digital</a>
+                                    <a href="<?php echo $website_path; ?>media.php#print">Print</a>
+                                    <a href="<?php echo $website_path; ?>media.php#broadcast">Broadcast</a>
+                                  </div>
+                              </li>
+                            <li class="dropdown"><a href="<?php echo $website_path; ?>venues.php" <?php if(isset($page) && $page == 'venues') { echo 'class="active"'; } ?>>Venues</a>
+                              <div>
+                                    <a href="<?php echo $website_path; ?>venues.php#venues">Venues</a>
+                                    <a href="<?php echo $website_path; ?>venues.php#london">London</a>
+                                    <a href="<?php echo $website_path; ?>venues.php#festivals">Festivals</a>
+                                    <a href="<?php echo $website_path; ?>venues.php#national">National</a>
+                                    <a href="<?php echo $website_path; ?>venues.php#outside-uk">Outside UK</a>
+                                  </div>
+                            </li>
                             <?php if(logged_in() == true) { ?>
                             <li class="dropdown">
                                 <a href="#">Hello, <?php echo $_SESSION['first_name']; ?></a>
                                 <div>
-                                    <a href="<?php echo $website_path; ?>address-book.php">Address book</a>
-                                    <a href="<?php echo $website_path; ?>add-contacts.php">Add contacts</a>
-                                    <a href="<?php echo $website_path; ?>import-contacts.php">Import contacts</a>
+                                    <a href="<?php echo $website_path; ?>address-book.php>"Address book</a>
+                                    <a href="<?php echo $website_path; ?>add-contacts.php>"Add contacts</a>
+                                    <a href="<?php echo $website_path; ?>import-contacts.php>"Import contacts</a>
                                     <?php if(logged_in() == false && isset($_SESSION['permissions']) && $_SESSION['permissions'] == 'admin') { ?><a href="<?php echo $website_path; ?>info.php">Add records</a><?php } ?>
                                     <a href="<?php echo $website_path; ?>logout.php">Logout</a>
                                 </div>
@@ -155,9 +182,9 @@
                 <?php if(isset($page) && $page == 'home') { ?>
                 <div class="bottom-home">
                     <h1 class="home-heading">A free online editable address book for bands, media and music professionals</h1>
-                    
+
                     <p>Register, create an account and start building an address book. Add contacts, share them or keep them private. Entries can be edited and updated. Ask <a class="askme" title="contact Musikandi" href="mailto:web@musikandi.com">here</a> for a login code.</p>
-                
+
                     <div class="search">
                         <form method="GET" action="<?php echo $website_path; ?>search.php">
                             <ul>
