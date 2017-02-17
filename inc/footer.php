@@ -82,5 +82,5 @@
         <script src="<?php echo $website_path; ?>js/plugins.js"></script>
         <script src="<?php echo $website_path; ?>js/main.js"></script>
 
-
+        <a href="#" class="back-to-top">Back to Top</a>
    
