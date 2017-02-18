@@ -2,9 +2,9 @@
 	$website_path = 'http://musikandi.com/';
 	
 	$host = "localhost";
-	$database = "";
-	$username = "";
-	$password = "";
+	$database = "webkandi_music";
+	$username = "webkandi_mu";
+	$password = "4pqi1SBYRj";
 
 	try {
 	    $conn = new PDO('mysql:host=' . $host. ';dbname=' . $database, $username, $password);
@@ -18,6 +18,11 @@
 			'name' => 'Booking Agents', // Name for category
 			'category' => 'agents', // Table name as on database
 			'url' => 'industry.php#agents' // URL for category
+		),
+                array(
+			'name' => 'agentswebsites',
+			'category' => 'agentswebsites',
+			'url' => 'industry.php'
 		),
 		array(
 			'name' => 'Americana',
