@@ -17,7 +17,7 @@
      <section id="content">
         <div class="container">
 
- <?php require('inc/how-does-it-work.php');?>
+ <?php require('inc/about.php');?>
          
 
             </div> 
