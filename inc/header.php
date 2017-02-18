@@ -183,7 +183,7 @@
                 <div class="bottom-home">
                     <h1 class="home-heading">A free online editable address book for bands, media and music professionals</h1>
 
-                    <p>Register, create an account and start building an address book. Add contacts, share them or keep them private. Entries can be edited and updated. Ask <a class="askme" title="contact Musikandi" href="mailto:web@musikandi.com">here</a> for a login code.</p>
+                    <p>Register, create an account and start building an address book. Add contacts, share them or keep them private. Entries can be edited and updated.</p>
 
                     <div class="search">
                         <form method="GET" action="<?php echo $website_path; ?>search.php">
