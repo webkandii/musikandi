@@ -18,9 +18,7 @@
 </div>
 </div>
 
-<!-- ------------------- -->
 <!-- 3 NEWS ITEMS STARTS -->
-<!-- ------------------- -->
 
 <div class="three-column">
 <div class="sub-news-box">
