@@ -1,18 +1,7 @@
 <div class="alt-three-column">
-<div class="sub-news-box">
-<div class="sub-news-headline">Booking Agents: Agency websites</div>
-
-<!-- PIC -->
-
-	<div class="three-column-1"><div class="news-column-1">
-<div class="news-pic-wrap"><!-- image can go here --></div>
-	
-	</div></div>
-
-<!-- NEWS -->
-
-<div class="three-column-23">
-<div id="agentswebsites" class="data-tab-content table-pagination">
+  <div class="sub-news-headline">Booking Agents: Agency websites</div>
+    <div class="three-column-23">
+      <div id="agentswebsites" class="data-tab-content table-pagination">
                     <table>
                         <thead>
                             <tr>
@@ -30,9 +19,6 @@
                             ?>
                         </tbody>
                     </table>
-</div>
-
-</div>
-
-</div>
+      </div>
+   </div>
 </div>
