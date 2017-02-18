@@ -7,6 +7,6 @@
 This means that you can play your part by updating contact information, and by adding new contacts.</div>
 Musikandi was created by <a href="http://www.webkandii.com">an ex-music industry professional</a> as a place to keep his contacts.
 Left with a choice of either allowing them to become out of date, or giving them away, he decided to open them up to the public and created this website with all its features that allows editing and privacy.
-Musikandi is open source. Go to https://github.com/webkandii/musikandi to suggest and code changes to the site.</div>
+Musikandi is open source. Go to <a href="https://github.com/webkandii/musikandi">github.com/webkandii/musikandi</a> to suggest and code changes to the site.</div>
         </div>
 </section>
