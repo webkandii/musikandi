@@ -16,7 +16,7 @@
             <h1>Industry</h1>
             <p>Key industry contacts booking agents, promoters and a mix of contacts from all over the world.</p>
           
-           <?php require('inc/snind.php');?>
+           <?php require('inc/industry-top-content.php');?>
             <div id="industry-tabs" class="data-tabs">
                 <div class="data-tab-nav clearfix">
                     <ul class="clearfix">
