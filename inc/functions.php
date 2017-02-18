@@ -145,7 +145,7 @@ row;
 	    return substr($string, 0, 3);
 	}
 
-	function validate_user($id, $first_name, $last_name, $email, $permissions, $ab_count, $ab_agents, $ab_worldwide, $ab_promoters, $ab_digital, $ab_print, $ab_broadcast, $ab_venues, $ab_london, $ab_festivals, $ab_nonukfests, $ab_tech, $ab_bline, $ab_staff, $ab_classical) {
+	function validate_user($id, $first_name, $last_name, $email, $permissions, $ab_count, $ab_agents, $ab_worldwide, $ab_promoters, $ab_digital, $ab_print, $ab_broadcast, $ab_venues, $ab_london, $ab_festivals, $ab_nonukfests, $ab_tech, $ab_bline, $ab_staff, $ab_classical, $ab_agentswebsites) {
 	    session_regenerate_id (); // Security measure
 	    $_SESSION['valid'] = 1;
 	    $_SESSION['id'] = $id;
@@ -169,6 +169,7 @@ row;
         $_SESSION['ab_bline'] = $ab_bline; // added by Tris
         $_SESSION['ab_staff'] = $ab_staff; // added by Tris
         $_SESSION['ab_classical'] = $ab_classical; // added by Tris
+        $_SESSION['ab_agentswebsites'] = $ab_agentswebsites; // added by Tris
 	}
 
 	function logged_in() {
