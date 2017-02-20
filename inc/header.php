@@ -109,14 +109,6 @@
                     </div>
                     <nav>
                         <ul>
-                            <li><a href="<?php echo $website_path; ?>" <?php if(isset($page) && $page == 'home') { echo 'class="active"'; } ?>>Home</a></li>
-                            <li class="dropdown"><a href="<?php echo $website_path; ?>bands.php" <?php if(isset($page) && $page == 'bands') { echo 'class="active"'; } ?>>Bands</a>
-                              <div>
-                                    <a href="<?php echo $website_path; ?>bands.php#tech">PA/Backline</a>
-                                    <a href="<?php echo $website_path; ?>bands.php#bline">Instruments</a>
-                                    <a href="<?php echo $website_path; ?>bands.php#staff">Sound Engineers</a>
-                                </div>
-                            </li>
                             <li class="dropdown"><a href="<?php echo $website_path; ?>industry.php" <?php if(isset($page) && $page == 'industry') { echo 'class="active"'; } ?>>Industry</a>
                               <div>
                                     <a href="<?php echo $website_path; ?>industry.php#booking-agents">Booking Agents</a>
@@ -130,8 +122,16 @@
                                     <a href="<?php echo $website_path; ?>media.php#digital">Digital</a>
                                     <a href="<?php echo $website_path; ?>media.php#print">Print</a>
                                     <a href="<?php echo $website_path; ?>media.php#broadcast">Broadcast</a>
-                                  </div>
-                              </li>
+                              </div>
+                            </li>
+                            <li><a href="<?php echo $website_path; ?>" <?php if(isset($page) && $page == 'home') { echo 'class="active"'; } ?>>Home</a></li>
+                            <li class="dropdown"><a href="<?php echo $website_path; ?>bands.php" <?php if(isset($page) && $page == 'bands') { echo 'class="active"'; } ?>>Bands</a>
+                              <div>
+                                    <a href="<?php echo $website_path; ?>tech.php#tech">PA/Backline</a>
+                                    <a href="<?php echo $website_path; ?>tech.php#bline">Instruments</a>
+                                    <a href="<?php echo $website_path; ?>tech.php#staff">Sound Engineers</a>
+                              </div>
+                            </li>
                             <li class="dropdown"><a href="<?php echo $website_path; ?>venues.php" <?php if(isset($page) && $page == 'venues') { echo 'class="active"'; } ?>>Venues</a>
                               <div>
                                     <a href="<?php echo $website_path; ?>venues.php#venues">Venues</a>
