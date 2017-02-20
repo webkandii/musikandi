@@ -125,7 +125,7 @@
                               </div>
                             </li>
                             <li><a href="<?php echo $website_path; ?>" <?php if(isset($page) && $page == 'home') { echo 'class="active"'; } ?>>Home</a></li>
-                            <li class="dropdown"><a href="<?php echo $website_path; ?>bands.php" <?php if(isset($page) && $page == 'bands') { echo 'class="active"'; } ?>>Bands</a>
+                            <li class="dropdown"><a href="<?php echo $website_path; ?>tech.php" <?php if(isset($page) && $page == 'tech') { echo 'class="active"'; } ?>>Tech</a>
                               <div>
                                     <a href="<?php echo $website_path; ?>tech.php#tech">PA/Backline</a>
                                     <a href="<?php echo $website_path; ?>tech.php#bline">Instruments</a>
