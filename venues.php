@@ -15,7 +15,7 @@
         <div class="container">
             <h1>Venues</h1>
              <p>UK, London, festivals and worldwide.</p>
-        <?php require('inc/snvenues.php'); ?>
+        <?php require('inc/venues-top-content.php'); ?>
 
             <div id="industry-tabs" class="data-tabs">
                 <div class="data-tab-nav clearfix">
