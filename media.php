@@ -15,7 +15,7 @@
         <div class="container">
             <h1>Media</h1>
             <p>Scroll down for print, broadcast and digital.</p>
-           <?php require('inc/snmedia.php');?>
+           <?php require('inc/media-top-content.php');?>
             <div id="industry-tabs" class="data-tabs">
                 <div class="data-tab-nav clearfix">
                     <ul class="clearfix">
