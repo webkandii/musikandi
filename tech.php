@@ -3,9 +3,9 @@
     require('inc/config.php');
     require('inc/functions.php');
 
-    $page_title = 'Bands • Musikandi';
-    $page = 'bands';
-    $breadcrumb = '<a href="' . $website_path .'">Home</a> <span>&#8250;&#8250;</span> Bands';
+    $page_title = 'Tech • Musikandi';
+    $page = 'tech';
+    $breadcrumb = '<a href="' . $website_path .'">Home</a> <span>&#8250;&#8250;</span> Tech';
     require('inc/header.php');
 ?>
 <head>
@@ -13,9 +13,9 @@
 </head>    
     <section id="content">
         <div class="container">
-            <h1>Bands</h1>
+            <h1>Technical Resources</h1>
              <p>Information for bands. Most of the things you'd need to put on a gig including backline hire companies, PA rental, sound engineers, staging, instrument hire, lights. Scroll down for the lists.</p>
-             <?php require('inc/bands-top-content.php');?>
+             <?php require('inc/tech-top-content.php');?>
                <div id="industry-tabs" class="data-tabs">
                 <div class="data-tab-nav clearfix">
                     <ul class="clearfix">
