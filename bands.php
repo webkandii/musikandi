@@ -15,7 +15,7 @@
         <div class="container">
             <h1>Bands</h1>
              <p>Information for bands. Most of the things you'd need to put on a gig including backline hire companies, PA rental, sound engineers, staging, instrument hire, lights. Scroll down for the lists.</p>
-             <?php require('inc/snbands.php');?>
+             <?php require('inc/bands-top-content.php');?>
                <div id="industry-tabs" class="data-tabs">
                 <div class="data-tab-nav clearfix">
                     <ul class="clearfix">
