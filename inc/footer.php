@@ -41,26 +41,26 @@
                       </li>
                     <li class="links">
                         <ul class="clearfix">
-                            <li><a href="/bands.php">Bands</a></li>
+                            <li><a href="/tech.php">Bands</a></li>
                             <li><a href="/industry.php">Industry</a></li>
                             <li><a href="/media.php">Media</a></li>
                             <li><a href="/venues.php">Venues</a></li>
-                            <li><a href="/bands.php#tech">PA Hire</a></li>
+                            <li><a href="/tech.php#tech">PA Hire</a></li>
                             <li><a href="/industry.php#booking-agents">Agents</a></li>
                             <li><a href="/media.php#digital">Digital</a></li>
                             <li><a href="/venues.php#london">London</a></li>
-                            <li><a href="/bands.php#bline">Backline</a></li>
+                            <li><a href="/tech.php#bline">Backline</a></li>
                             <li><a href="/industry.php#international">International</a></li>
                             <li><a href="/media.php#print">Print</a></li>
                             <li><a href="venues.php#festivals">Festivals</a></li>
-                            <li><a href="/bands.php#staff">Staff</a></li>
+                            <li><a href="/tech.php#staff">Staff</a></li>
                             <li><a href="industry.php#promoters">Promoters</a></li>
                             <li><a href="media.php#broadcast">Broadcast</a></li>
                             <li><a href="venues.php#national">National</a></li>
-                            <li><a href="/bands.php#tech">&nbsp;</a></li>
+                            <li><a href="/tech.php#tech">&nbsp;</a></li>
                             <li><a href="/industry.php#classical">Classical/Jazz</a></li>
                             <li><a href="mailto:web@musikandi.com">Contact</a>
-                            <li><a href="/bands.php#outside-uk">Outside UK</a></li>
+                            <li><a href="/tech.php#outside-uk">Outside UK</a></li>
                        </ul>
                     </li>
 
